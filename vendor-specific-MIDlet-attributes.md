@@ -247,6 +247,7 @@ Content-Folder: file:///CFCard/
 #### Attributes without proper official documentation found:
 | Attribute | Description | Known values
 | ------------ | ------------ | ------------
+| MIDlet-Screen-Mode | Specifies the screen orientation on QWERTY slider phones (e.g. KS360, KS365). May be the same as `LGE-MIDlet-Display-Mode`. [Source](https://www.youtube.com/watch?v=VRdRdszo1vc) | `Portrait`, `Landscape`, `Both`
 |  MIDlet-Touch-Support  | Specifies whether the MIDlet supports touch events. | `true` , `false`
 | UseNativeTextButtons | _Unknown_ | `true` , `false`
 | ReverseSoftkeys | _Unknown_ | `true` , `false`
@@ -254,7 +255,7 @@ Content-Folder: file:///CFCard/
 | LGE-MIDlet-TargetLCD-Height / LGE-MIDlet-TargetLCD-Width | _Unknown_ | `(width/height)`
 | LGE-MIDlet-Display-Nav-Keypad | Specifies whether to show a virtual keypad on phones without a physical keypad. | `yes` , `no`
 | LGE-MIDlet-On-Screen-Keypad | _Unknown_ (Tried on a real LG phone, did not have any effect. Could be a mixture of Nokia's `Nokia-MIDlet-On-Screen-Keypad`)
-| LGE-MIDlet-Display-Mode | _Unknown_ | `both`
+| LGE-MIDlet-Display-Mode | _Unknown_. May be the same as `MIDlet-Screen-Mode`, but did not do anything on KS365. | `both`
 | LGE-MIDlet-App-Orientation | Specifies the prefered orientation for the MIDlet cavas | `portrait` , `landscape`
 | LGE-MIDlet-Category | Specifies the category where to install the MIDlet | `Applications` , `Games` (known)
 
