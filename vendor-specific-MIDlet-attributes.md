@@ -55,7 +55,6 @@ Nokia-UI-Enhancement: CanvasHasBackground,MusicKeysSupported
 
 | Attribute | Description | Values
 | ------------ | ------------ | ------------
-| Nokia-Update | MIDlet Version update URL | `(url)`
 | Nokia-MIDlet-national-digit-display | Used to enable national rather than Latin digit display. _Since: Series 40 5th Edition_ | `true` , `false`
 | Nokia-MIDlet-Background-Exit-Confirm-`(locale)` | Prompt to use in a confirmation before stopping a background MIDlet prior when freeing heap space. _Since: Series 40 6th Edition_ | `(message)`
 | Nokia-MIDlet-bg-launchpad | Indicates MIDlet-`n` in the suite that is a launchpad MIDlet (JAR explorer). _Since: Series 40 5th Edition FP 1_ | `n`
