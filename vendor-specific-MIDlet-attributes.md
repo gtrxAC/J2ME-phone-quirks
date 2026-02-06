@@ -211,7 +211,8 @@ Nokia-MIDlet-1-en: Bounce
 | Attribute | Description | Known values
 | ------------ | ------------ | ------------
 | MIDlet-ScreenMode | Enables screen rotation. | `ROTATE`
-| MIDlet-Landscape-Support | MIDlet supports landscape orientation | `TRUE` , `FALSE`
+| MIDlet-Landscape-Support | MIDlet supports landscape orientation. On the Samsung GT-B3410, this and the `MIDlet-FixedVKP-Support` attribute must be both set to `TRUE` in the JAD file (not necessarily the JAR manifest) to allow screen rotation when the keyboard is opened. | `TRUE` , `FALSE`
+| MIDlet-FixedVKP-Support | See above. | `TRUE` , `FALSE`
 | MVM-BGM-Support | _Unknown_ | `true` , `false`
 
 ### Examples:
