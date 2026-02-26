@@ -55,6 +55,7 @@ Nokia-UI-Enhancement: CanvasHasBackground,MusicKeysSupported
 
 | Attribute | Description | Values
 | ------------ | ------------ | ------------
+| Nokia-MIDlet-App-Orientation | Similar to the attribute of the same name on S60, but also has a `manual` option, which allows for [automatic screen rotation](https://www.slideshare.net/slideshow/introduction-to-series-40-full-touch-ui/13472900#69) on S40 full-touch devices. | `portrait` , `landscape`, `manual`
 | Nokia-MIDlet-national-digit-display | Used to enable national rather than Latin digit display. _Since: Series 40 5th Edition_ | `true` , `false`
 | Nokia-MIDlet-Background-Exit-Confirm-`(locale)` | Prompt to use in a confirmation before stopping a background MIDlet prior when freeing heap space. _Since: Series 40 6th Edition_ | `(message)`
 | Nokia-MIDlet-bg-launchpad | Indicates MIDlet-`n` in the suite that is a launchpad MIDlet (JAR explorer). _Since: Series 40 5th Edition FP 1_ | `n`
