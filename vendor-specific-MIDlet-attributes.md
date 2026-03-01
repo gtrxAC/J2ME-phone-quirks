@@ -162,6 +162,7 @@ Kirghiz: ky-KG
 Lao: lo-LA
 Lingala: ln
 Macedonian: mk-MK
+Malagasy: mg-MG
 Malayalam: ml-IN
 Marathi: mr-IN
 Mongolian: mn-MN
